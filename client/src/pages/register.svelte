@@ -41,7 +41,7 @@
         <input bind:value={email} id="email" name="email" placeholder="e@mail.com" type="email">
 
         <label for="password">Password</label>
-        <input bind:value={password} id="password" name="password" placeholder="*******" type="password">
+        <input bind:value={password} id="password" name="password" placeholder="****" type="password">
 
         <button>Signup</button>
     </form>
