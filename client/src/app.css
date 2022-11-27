@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: rgb(39, 114, 226);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+h1, p {
+  text-align: center;
+}
+
+
+
+button {
+  padding: 5px;
+  border-radius: 25px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+
+}
+
+.button1 {
+  margin: 0 45% 20px 45%;
+  padding: 10px;
+}
+
+form {
+  display: grid;
+  margin: 0 45% 20px 45%;
+}
